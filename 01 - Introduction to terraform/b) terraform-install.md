@@ -65,4 +65,6 @@ You can also follow the procedure below to install terraform on Ubuntu or RHEL
       ++++++++++++++++++++++++++++++
      sudo yum install -y yum-utils
      sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-     [sudo yum -y install terraform]
+     sudo yum -y install terraform
+
+     [Install prometheus](https://github.com/prometheus/prometheus/releases/download/v3.6.0/prometheus-3.6.0.linux-amd64.tar.gz)
