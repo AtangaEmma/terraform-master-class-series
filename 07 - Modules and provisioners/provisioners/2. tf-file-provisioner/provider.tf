@@ -8,7 +8,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "landmark-automation-kenmak"
+    bucket = "demo"
     key    = "ec2/terraform.tfstate"
     region = "us-west-2"
   }
